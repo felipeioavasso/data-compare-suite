@@ -10,7 +10,7 @@ select
   sum(custo_materiais_realizado) as ci,
   sum(custo_financeiro) as cf,
   sum(valor_frete) as frete
-from cory.big_table_faturado
+from schema.tabela
 where tempo_id >= %(dt_inicio)s
   and status_pedido_id = ANY(%(status_lista)s)
 group by nota_fiscal_id
