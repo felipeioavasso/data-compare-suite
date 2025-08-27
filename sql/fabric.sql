@@ -10,7 +10,7 @@ select
   sum(custo_materiais_realizado) as ci,
   sum(custo_financeiro) as cf,
   sum(valor_frete) as frete
-from cory_lakehouse.dbo.f_faturado
+from schema.tabela
 where tempo_id >= ?
 -- {{STATUS_FILTER}}
 group by nota_fiscal_id
