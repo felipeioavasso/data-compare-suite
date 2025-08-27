@@ -1,0 +1,7 @@
+psycopg2-binary
+pyodbc
+python-dotenv
+pandas
+pyarrow
+fastparquet
+streamlit

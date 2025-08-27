@@ -1,0 +1,35 @@
+# Ambiente virtual
+.venv/
+env/
+venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pdb
+
+# Logs
+*.log
+
+# Configuração local
+.env
+
+# Saídas da aplicação
+/out/
+
+# Jupyter / notebooks temporários
+.ipynb_checkpoints/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Arquivos locais indesejados
+gui_conexoes00 copy.py
